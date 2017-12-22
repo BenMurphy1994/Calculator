@@ -12,7 +12,7 @@ namespace Calculator
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
-        Label resultText;
+        //Label resultText;
         int currentState = 1;
         string mathOperator;
         double firstNumber, secondNumber;
